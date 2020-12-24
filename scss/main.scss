@@ -1,0 +1,68 @@
+$top:#407bbf
+$base: #000000
+$parrafo: "texto base";
+
+header { 
+    width: 100%;
+    background-color:$top;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ img {
+        width: 170px;
+        height: auto;
+        float: left;
+        margin: 30px;
+    }
+
+ nav {
+     color: $base;
+     font-family: Roboto , Arial, Helvetica, sans-serif ;
+     text-transform: uppercase;
+      ul li { 
+          list-style: none;
+          padding: 10px 10px;
+          margin: 30px;
+          background-color: #d9edf3;
+          border: 3px solid #808080;
+          display: inline-block;
+        }
+        
+    }  
+
+}
+
+/*extend*/ 
+h1{
+    color: #23bd73;
+    font-family: Gotham , Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 1000px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 300px 10px 300px ;
+}
+
+h3{
+ @extend h1 ;
+ font-weight: 700px;
+ margin: 10px 50px 10px 50px;
+}
+/* Mixing */ 
+@mixin p ( $fontstyle , $fontcolor , $textalign) {
+    color: $fontcolor;
+    font-family: Roboto , Arial, Helvetica, sans-serif ;
+    font-style: $fontstyle;
+    font-weight: normal;
+    margin: 10px 100px 5px 100px;
+    text-align: $textalign;
+}
+
+p { @include p ( normal, #000000 , center )
+
+}
+
+p strong { @include p strong ( normal, #23bd73 , center )
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header { 
+    width: 100%;
+    background-color:#407bbf ;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 30px;
+    background-color: #d9edf3;
+    border: 3px solid #808080;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #808080;
+    font-family: Gotham , Arial , Helvetica , sans-serif;
+}
+
+img{
+    width: 170px;
+    height: auto;
+    float: left;
+    margin: 30px;
+}
+
+h1{
+    color: #23bd73;
+    font-family: Gotham , Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 1000px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 300px 10px 300px ;
+}
+
+section .sukabumi {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 100px 20px 100px
+}
+
+h3 {
+    color: #23bd73;
+    font-family: Gotham , Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    margin: 10px 50px 10px 50px;
+}
+
+
+
+p {
+    color: #000000;
+    font-family: Roboto , Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px 100px 5px 100px;
+    text-align: center;
+}
+p strong {
+    color: #23bd73
+}
+
+table{
+    color: #000000;
+    font-family: Roboto , Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    margin: 5px 100px 10px 100px;
+    width: 80%;
+}
+
+th {
+    color: #23bd73 ; 
+    font-weight: 700
+
+}
+
+nav {
+    color: #000000;
+    font-family: Roboto , Arial, Helvetica, sans-serif ;
+    text-transform: uppercase;
+}
+
+label {
+    color: #000000;
+    font-family: Roboto , Arial, Helvetica, sans-serif ;
+    text-transform: capitalize;
+}
+
+footer {
+    background-color:  #23bd73;
+    width: 100%;
+    padding: 30px 30px;
+}
+

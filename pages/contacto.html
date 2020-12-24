@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> Holstein Revestimientos - Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=" CONTACTO, NUMERO , CELULAR , CORREO , REDES,  TELÉFONO , UBICACIÓN , 
+    HOLSTEIN">
+     <meta name="description" content="Holstein Revestimientos. Datos de contacto para el cliente.">
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <header>
+        <img src="../imagenes/logo.png" alt="Logo Holstein">
+        <nav>
+            <ul>
+               <li> <a href="../index.html">Home</a></li>
+               <li> <a href="nosotros.html"> Nosotros </a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="presupuesto.html">Presupuestos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section>
+            <h1> Hola</h1>
+            <p>Dejanos tus datos en el formulario y te contactaremos
+            </p>
+            <form name="contact_form" action="gracias.html" method="POST">
+                <label for="form_name"> Nombre y Apellido</label>
+                <input type="text" name="nombre" id="form_name" placeholder="Juan Perez" />
+                <label for="form_email"> Email</label>
+                <input type="email" name="Email" id="form_email"/>
+                <label for="form_telefono"> Telefono </label>
+                <input type="tel" name="Telefono" id="form_telefono" />
+                <label for="form_area"></label>
+                <select name="area" id="form_area">
+                    <option selected= "selected">Seleccione el producto </option>
+                    <option value="Euro">Euro Edition</option>
+                    <option value="Classic">Classic Edition</option>
+                    <option value="Lum"> Luminarias LED</option>
+                    <option value="GS">Green Stone</option>
+                </select>
+                <label for="form_mensaje"> Deje su mensaje</label>
+                 <textarea name="mensaje" id="form_mensaje" rows="10" cols="25"></textarea>
+                 <input type="submit" name="enviar_formulario" value="Enviar" />
+            </form>
+        </section>  
+    </main>
+    <footer>
+        <p> Holstein AR &reg; - Todos los derechos reservados &copy; </p>
+    </footer>
